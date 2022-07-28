@@ -50,8 +50,8 @@
    
   5. Right
 
-   • When Break is input, it goes to the Break state regardless of the input value except Reset.
+     • When Break is input, it goes to the Break state regardless of the input value except Reset.
    
-   • If only "Right" is entered, it remains in the Right State.
+     • If only "Right" is entered, it remains in the Right State.
    
-   • In other cases, it goes to the Ready state.
+     • In other cases, it goes to the Ready state.
