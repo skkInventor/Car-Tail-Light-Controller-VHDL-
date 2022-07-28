@@ -19,8 +19,11 @@
 - Multiple inputs may be input simultaneously at a time. (e.g., left and right can be entered at the same time)
 - Description about each state
   1. Reset
+  
    • Reset operates regardless of CLK.
+   
    • When Reset is enabled, it remains in the RESET state.
+   
    • When Reset is deactivated, the state becomes Ready(s_ready) regardless of other input values.
   2. Ready
    • When Break is input, it becomes a break state regardless of other input values except Reset.
